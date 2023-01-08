@@ -15,7 +15,7 @@
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
                                 <img class="card-img-top"
-                                    src="https://polisen.se/contentassets/afa22fdadd884321b7793c53f3c29b22/sarskild-handelse.jpg/Size600?v=3555c17240606c0567b5e0d6fea3e2cb">
+                                    src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
                                 {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
@@ -29,7 +29,7 @@
                             </a>
                             <hr />
                             <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
-                                {{ post.number_of_likes }} Political Leaning: {{ post.political_view}}</p>
+                                {{ post.number_of_likes }}</p>
                         </div>
                     </div>
                 </div>
@@ -56,5 +56,4 @@
     </nav>
     {% endif %}
 </div>
-
 {%endblock%}
