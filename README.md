@@ -1,108 +1,380 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Balanced News
 
-Welcome Bogdan,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- 
+This is the 4th portfolio project developed as part of the Code Institute Diploma in Full Stack Development. It was created to demonstrate skills acquired using Django to design and develop websites that offer full CRUD (create, read, update and delete) functionality.
 
-## Gitpod Reminders
+![Multi Device Screenshot]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Demo
 
-`python3 -m http.server`
+[View the live project here.]()
 
-A blue button should appear to click: _Make Public_,
+## TOC
 
-Another blue button should appear to click: _Open Browser_.
+- [User Experience (UX)](#user-experience-ux)
+  - [Project Aims](#project-aims)
+  - [User Stories](#user-stories)
+  - [Agile Methodology](#agile-methodology)
+  - [Design](#design)
+    - [Wireframes](#wireframes)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Images and Iconography](#images-and-iconography)
+    - [Database Schema](#database-schema)
+    - [Design changes](#design-changes)
+- [Features](#features)
+  - [Features Not Implemented](#features-not-implemented)
+  - [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Python Modules and Packages/Frameworks Used](#python-modules-and-packagesframeworks-used)
+  - [Programs and Tools Used](#programs-and-tools-used)
+- [Testing](#testing)
+  - [Bugs](#bugs)
+    - [Fixed Bugs](#fixed-bugs)
+    - [Remaining Bugs](#remaining-bugs)
+- [Deployment](#deployment)
+  - [Forking the GitHub Repository](#forking-the-github-repository)
+  - [Making a Local Clone](#making-a-local-clone)
+  - [Deploying with Heroku](#deploying-with-heroku)
+- [Credits](#credits)
+  - [Online resources](#online-resources)
+  - [Code](#code)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+### Project Aims
 
-Another blue button should appear to click: _Open Browser_.
+The initial aims of the project which formed the basis for user story creation were identified as the following:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- 
 
-To log into the Heroku toolbelt CLI:
+### User Stories
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+NOTE: The **Staff Member** role was renamed to **Customer** towards the end of development. This was based on feedback to bring the role further in line with the site purpose but user stories still refer to this role as **Staff Member**.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Acceptance criteria for each user story can be viewed within the linked GitHub issue.
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Agile Methodology
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+All user stories were entered as issues in a GitHub Kanban project and assigned labels using the MoSCoW prioritization technique. The live project board can be found on the repository's project tab (classic project section as of 07/22) or on the following link:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+[Balanced News - Ticketing System User Stories - Kanban Board]().
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Pull requests where linked with a user story when they contributed to completion of the acceptance criteria.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Design
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Wireframes
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+I created Wireframes to visualize the site's design and act as a template to use when developing the templates. When designing the site I wanted to ensure the site looked and functioned just as well on mobile as larger viewports.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- [Wireframe Links Mobile]()
+- [Wireframe Links Desktop]()
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Colour Scheme
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Background Colour]()
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Typography
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Google fonts was used in this project with both fonts selected for their legibility and simplicity.
 
-------
+[]() - Use in headings.
+[]() - Use in paragraphs and labels.
 
-## FAQ about the uptime script
+#### Images and Iconography
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+#### Database Schema
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Image of Database Schema]()
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Features
 
-**Can I opt out?**
+1. Home Page
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+    - The functionality of the site is restricted to registered users in line with its purpose to assist individuals. The home page was therefore designed to welcome customers and provide an introduction to make the site purpose clear. There are clear links to encourage visitors to signup and allow existing users to login. The home page is fully responsive and is based on the site's base template, therefore includes the site wide navigation and footer elements.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+        ![Home Page](docs/features/features-homepage-min.png)
 
-**Anything more?**
+1. Navigation
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+    -
 
----
+    
 
-Happy coding!
+    - 
+
+
+    - Administrators see links to manage their profile and logout, but also the link to the user search page.
+
+        ![NavBar - administrator]()
+
+    - Navigation on smaller viewports
+
+        ![NavBar - collapsible]()
+
+1. Signup, Login and other account management pages
+
+    - *django-alauth* was implemented to handle account creation and management of email verification, email address management, password change, etc.
+
+    - The *django-allauth* signup page shown below was extended to request a user's name as part of the signup process. This also demonstrates how the styling of the *django-allauth* templates were altered to make them cohesive with the rest of the site. Forms were styled using the *crispy-bootstrap5* package.
+
+        ![Account Signup]()
+
+
+
+1. Filters
+
+    - The ticket list has the potential to become very crowded as more news post are added and comments logged. To ease this issue the *django-filters* package was used to create a custom filterset that allows admins/users to filter news posts by Status and sort by creation date, or political views. 
+
+        ![Filtering]()
+
+1. 
+
+1. Ticket Management - Technician and Administrator Role
+
+    - Users with an elevated role (Technician and Administrator) can create, edit and comment on all tickets. The elevated user ticket creation and edit forms contain all ticket fields which allows tickets to be created as other users and ticket status and category to be updated. Select image formats can be uploaded when creating a ticket as supplementary information. This image can be also be updated or removed.
+
+    - Elevated user roles can also delete tickets in case they are raised in error (deletion must be confirmed). Deletion of a ticket with an image will also delete the image from the Cloudinary hosting platform using a signal.
+
+    - These forms and models were subject to the same validation as the customer forms above.
+
+        ![Ticket management - Elevated user](docs/features/feature-technician-create-edit-view-request-min.png)
+
+        ![Ticket deletion - Elevated user](docs/features/features-technician-delete-min.png)
+
+1. Profile Management - Customer and Technician Roles
+
+    - Users are able to change the first and last name they registered with and their username. The profile also acts as a place to link to other *django-allauth* features to allow the management of email addresses and password change functionality.
+
+        ![Profile management - Customer and Technician Roles]()
+
+1. User Management - Administrator Role
+
+    - 
+
+1. Messaging and Email
+
+    - Bootstrap toasts were used in conjunction with Django messaging framework to report success and errors to customers as they used the site.
+
+    - Entering an invalid url (integer) will direct users to a custom 404 Error page. If the user enters a string as the ticket slug, they will be directed to the home page and be informed of the error.
+
+        ![Messaging - Toasts]()
+
+   
+
+### Features Not Implemented
+
+
+### Future Features
+
+-
+
+## Technologies Used
+
+### Languages Used
+
+- HTML5
+- CSS3
+- Python
+- Javascript
+
+### Python Modules and Packages/Frameworks Used
+
+- Built-in Packages/Modules
+  - [datetime](https://docs.python.org/3/library/datetime.html) - Used to get current time in a timezone aware format to use when updating tickets.
+  - [os](https://docs.python.org/3/library/os.html) - This module provides a portable way of using operating system dependent functionality.
+
+- External Python Packages
+  - [cloudinary](https://pypi.org/project/cloudinary/1.29.0/) - Used for the Ticket Image Model field, Image upload and deletion.
+  - [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/0.6/) - Used to style form using Bootstrap5
+  - [dj-database-url](https://pypi.org/project/dj-database-url/0.5.0/) - Allows the use of 'DATABASE_URL' environmental variable in the Django project settings file to connect to a PostgreSQL database.
+  - [dj3-cloudinary-storage](https://pypi.org/project/dj3-cloudinary-storage/0.0.6/) - Facilitates integration with Cloudinary by implementing Django Storage API.
+  - [Django](https://pypi.org/project/Django/3.2.14/) - High-level Python Web framework used to develop the project
+  - [django-allauth](https://pypi.org/project/django-allauth/0.51.0/) - Set of Django application used for account registration, management and authentication.
+  - [django-crispy-forms](https://pypi.org/project/django-crispy-forms/1.14.0/) - Used to format form elements and layout.
+  - [django-filter](https://pypi.org/project/django-filter/22.1/) - Application that allows dynamic QuerySet filtering from URL parameters.
+  - [django-model-utils](https://pypi.org/project/django-model-utils/) - Easily add choices to a django model field.
+  - [django-summernote](https://pypi.org/project/django-summernote/0.8.20.0/) - Allows easy use of the Summernote WYSIWYG editor in Django projects.
+  - [gunicorn](https://pypi.org/project/gunicorn/20.1.0/) - Python WSGI HTTP Server
+  - [Pillow](https://pypi.org/project/Pillow/9.2.0/) - Fork of PIL, the Python Imaging Library which provides image processing capabilities.
+  - [psycopg2](https://pypi.org/project/psycopg2/2.9.3/) - Python PostgreSQL database adapter
+
+### Programs and Tools Used
+
+- [Google Fonts:](https://fonts.google.com/)
+  - Google fonts import statements were used as part of this project to make use
+    of the Poppins and Cabin Round fonts which are used on all pages of the
+    website.
+- [Bootstrap](https://getbootstrap.com/)
+  - Bootstrap was used through the project to style the project and create responsive elements/layouts.
+- [Visual Studio Code:](https://code.visualstudio.com/)
+  - Visual Studio Code was used as my code editor for this project.
+- [Git](https://git-scm.com/)
+  - Git was used for version control, using the terminal to commit to Git and
+    Push to GitHub.
+- [GitHub:](https://github.com/)
+  - GitHub is used to store the projects code after being pushed from Git.
+- [GIMP:](https://www.gimp.org/)
+  - GIMP was used to edit and resize photos for the readme.
+- [Balsamiq:](https://balsamiq.com/)
+  - Balsamiq was used to create the [wireframes](#wireframes) during the design
+    process.
+- [Coolors](https://coolors.co/image-recolor)
+  - Coolors Artwork Recolor was used to alter the hero images colours.
+- [TinyJPG](https://tinyjpg.com/)
+  - Used to compress images for the README.
+- The following modules were installed or enabled in [Visual Studio
+Code](https://code.visualstudio.com/) to assist with formatting and code
+linting:
+  - [flake8](https://github.com/pycqa/flake8) - Code Linter
+  - [black](https://github.com/psf/black) - Code Formatter
+- The following [Visual Studio Code](https://code.visualstudio.com/) extensions
+  were utilized in the production of this project:
+  - [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) - Used to wrap comments.
+  - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Used to spell check content and commits.
+  - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) - Makes indentation easier to read.
+  - [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) - Generates python docstrings templates automatically
+
+## Testing
+
+A separate testing document has been created as [TESTING.md](TESTING.md)
+
+### Bugs
+
+#### Fixed Bugs
+
+-
+
+#### Remaining Bugs
+
+
+
+## Deployment
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on
+our GitHub account to view and/or make changes without affecting the original
+repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub
+   Repository](https://github.com/ianmeigh/support-hub)
+1. At the top of the Repository (not top of page) just above the "Settings"
+   Button on the menu, locate the "Fork" Button.
+1. Click the button (not the number to the right) and you should now have a copy
+   of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+**NOTE**: It is a requirement of the is project that you have Python version 3.8 or higher installed locally.
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/qburn93/support-hub).
+1. Under the repository name, click "Code".
+1. To clone the repository using HTTPS, under "HTTPS", copy the link.
+1. Open your local terminal with git installed
+1. Change the current working directory to the location where you want the cloned directory to be created.
+1. Type `git clone`, and then paste the URL you copied in Step 3.
+
+    ```console
+    ~$ git clone https://github.com/qburn93/project-1.git
+    ```
+
+1. Press Enter. Your local clone will be created.
+
+    ```console
+    $ git clone https://github.com/qburn93/project-1.git
+    > Cloning into `test-dir`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+    ```
+
+    [Click here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) for a more detailed explanation of the process above with pictures.
+
+1. Change the current working directory to the cloned project folder (this will be a child directory in the location you cloned the project).
+
+1. It is recommended to use a virtual environment during development ([learn more about virtual environments](https://realpython.com/python-virtual-environments-a-primer/)). If you would prefer not to use on please skip the following steps:
+    1. Create a virtual environment in the projects working directory by entering the following command in the same terminal window used for the steps above `python3 -m venv .venv`.
+    1. Before use, the virtual environment will need to be activated using the command `source .venv/bin/activate` in the same terminal window used previously.
+1. Packages required by the project can now using the command `pip install -r requirements.txt`
+1. In the cloned directory, rename the file `.env-example` to `.env` and populate it with the information required.
+1. Make django migrations using the command `./manage.py migrate`.
+
+### Deploying with Heroku
+
+**NOTE**: It is a prerequisite of deployment to Heroku that you already have access to the following:
+
+- A Cloudinary account, create one for free at [https://cloudinary.com](https://cloudinary.com).
+- An account with an email service that can be used to send confirmations and notification to users.
+  - Gmail can be used for small demonstration or test projects. An 'app' password will be required for use in this project. Refer to the following Google support article to set one up):
+    - [https://support.google.com/accounts/answer/185833](https://support.google.com/accounts/answer/185833)
+  - Visit the following Google support article to learn more about GMail sending limits:
+    - [https://support.google.com/a/answer/166852](https://support.google.com/a/answer/166852)
+  - A service like [SendGrid](https://sendgrid.com) or [mailgun](https://www.mailgun.com) should be used in production environments.
+
+**NOTE**: It is assumed you have followed all deployment instructions listed in this readme starting with the section titled 'Forking the GitHub Repository'.
+
+1. Log in to [Heroku](https://www.heroku.com/) and if not taken there automatically, navigate to your personal app dashboard.
+1. At the top of the page locate the 'New' drop down, click it and then select 'Create new app'.
+1. Give your application a unique name, select a region appropriate to your location and click the 'Create app' button.
+1. Your app should now be created, so from the menu towards the top of the page select the 'Resources' section.
+1. Search for 'Heroku Postgres' under the Add-ons section and add it.
+1. From the menu towards the top of the page select the 'Settings' section and lick 'Reveal Config Vars' in the Config vars section. Enter the following key / value pairings:
+    1. Key as `ALLOWED_HOSTS` and the value as the name of you project with '.herokuapp.com' appended to the end e.g.  `example-app.herokuapp.com`. Click the Add button.
+    1. Key as `CLOUDINARY_URL` and the value as your cloudinary API Environment variable e.g. `cloudinary://**************:**************@*********`. Click the Add button.
+    1. Key as `EMAIL_HOST_PASSWORD` and the value as the password or value provided by your email service of choice. Click the Add button.
+    1. Key as `EMAIL_HOST_USER` and the value as the the email address or value provided by your email service of choice. Click the Add button.
+    1. Key as `SECRET_KEY` and the value as a complex string which will be used to provide cryptographic signing. The use of a secret key generator is recommended such as [https://djecrety.ir](https://djecrety.ir/). Click the Add button.
+    1. Ensure the key `DATABASE_URL` is already populated. This should have been created automatically by Heroku.
+    1. The `DATABASE_URL` should be copied into your local `.env`, created during the cloning process.
+1. Open the `.env` file in the project directory and delete the key / value pair `DEV_ENVIRONMENT_DATABASE = True` before saving the file. This can be added back after the next step to ensure local development changes will not alter the remote database.
+1. Running migrations on the remote database
+    1. Open your local terminal and change the current working directory to that of the project folder.
+    1. Make django migrations using the command `./manage.py migrate`.
+1. Navigate to the 'Deploy' page using the menu towards the top of the page.
+1. Select 'GitHub' from the 'Deployment method' section and you will be prompted to 'Connect to GitHub'.
+1. Once connected to your GitHub account you will be able to search for your repository which contains the forked 'Support-Hub' repository.
+1. Once the repository is found click 'Connect'.
+1. At the bottom of the page find the section named 'Manual deploy', select the 'main' branch in the drop down and click the 'Deploy' button.
+1. Once deployment is complete, click the 'View' button to load the URL of the deployed application.
+
+## Credits
+
+### Online resources
+
+- [Django Documentation](https://docs.djangoproject.com/en/3.2/)
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.1) and [Examples](https://getbootstrap.com/docs/5.1/examples/)
+- [Django-Summernote Documentation](https://github.com/summernote/django-summernote)
+
+### Code
+
+The following credits represent cases where code was adapted or used from external resources. Some credits in the code would have broken the PEP8 character limit and as such have links to this section in the the source code:
+
+- **#1** - 
+  - CREDIT: 
+  - URL: [)
+
+
+### Media
+
+- 
+
+### Acknowledgments
+
