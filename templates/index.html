@@ -26,10 +26,11 @@
                             <a href="#" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text ">{{ post.content|safe }}</p>
+                                <p class="card-text text-muted h6">Political Leaning: {{ post.political_view}}</p>
                             </a>
                             <hr />
                             <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
-                                {{ post.number_of_likes }} Political Leaning: {{ post.political_view}}</p>
+                                {{ post.number_of_likes }}</p>
                         </div>
                     </div>
                 </div>
