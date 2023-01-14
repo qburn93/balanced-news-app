@@ -6,10 +6,10 @@ from django_summernote.admin import SummernoteModelAdmin
 @admin.register(Post)
 class PostAdmin(SummernoteModelAdmin):
 
-    list_display = ('title', 'slug', 'status', 'created_on', 'political_view')
-    search_fields = ['title', 'content', 'political_view']
+    list_display = ('title', 'slug', 'status', 'created_on', 'political_view', 'category')
+    search_fields = ['title', 'content', 'political_view', 'category']
     prepopulated_fields = {'slug': ('title',)}
-    list_filter = ('status', 'created_on', 'political_view')
+    list_filter = ('status', 'created_on', 'political_view', 'category')
     summernote_fields = ('content')
 
 

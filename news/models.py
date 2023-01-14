@@ -27,8 +27,17 @@ class Post(models.Model):
     )
     political_view = models.CharField(max_length=1, choices=POLITICAL_VIEWS)
 
+
+    CATEGORY_CHOICES = (
+        ('ECONOMY', 'Economy'),
+        ('SPORTS', 'Sports'),
+        ('POLITICAL', 'Political'),
+    )
+    category = models.CharField(max_length=20, choices=CATEGORY_CHOICES, default=0)
+
+
     class Meta:
-        ordering = ["-created_on", "political_view"]
+        ordering = ["-created_on", "political_view", "category"]
 
     def __str__(self):
         return self.title
