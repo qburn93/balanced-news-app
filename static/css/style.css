@@ -57,6 +57,12 @@ body {
     text-transform: uppercase;
 }
 
+.category {
+    color: white;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
 .masthead {
     margin-top: 10px;
     overflow: hidden;

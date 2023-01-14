@@ -368,8 +368,13 @@ repository by using the following steps...
 The following credits represent cases where code was adapted or used from external resources. Some credits in the code would have broken the PEP8 character limit and as such have links to this section in the the source code:
 
 - **#1** - 
-  - CREDIT: 
-  - URL: [)
+  - CREDIT:From Code institute's django-blog module i used the comment class and post, but added and updated it with Political views and Categories.  
+  - URL: [Code institute credit](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/04_building_the_models/blog/models.py)
+
+- **#2** - 
+  - CREDIT:I want to credit Codemy youtube video on dropdown menu for the category nav bar links + the bootstrap documentation on navbars 
+  - URL: [Codemy Youtube Video](https://www.youtube.com/watch?v=E-nxGwGYRXY&t=122s&ab_channel=Codemy.com)
+  
 
 
 ### Media

@@ -6,4 +6,5 @@ urlpatterns = [
     path("", views.PostList.as_view(), name='home'),
     path('sports/', sports, name='sports'),
     path('economy/', economy, name='economy'),
+    
 ]
