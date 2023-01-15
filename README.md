@@ -76,7 +76,9 @@ Pull requests where linked with a user story when they contributed to completion
 I created Wireframes to visualize the site's design and act as a template to use when developing the templates. When designing the site I wanted to ensure the site looked and functioned just as well on mobile as larger viewports.
 
 - [Wireframe Links Mobile]()
-- [Wireframe Links Desktop]()
+- [Wireframe Links Desktop]
+  - (https://i.imgur.com/dWVFuWU.png)
+  - (https://i.imgur.com/LqTkFtl.png)
 
 #### Colour Scheme
 
