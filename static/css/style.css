@@ -9,9 +9,9 @@ body {
 
 .brand {
     font-family: Lato, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #4A4A4F;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #6b0404;
 }
 
 .red-o {
@@ -20,6 +20,7 @@ body {
 
 .thin {
     font-weight: 300;
+    color: #6b0404;
 }
 
 .light-bg {
@@ -27,7 +28,7 @@ body {
 }
 
 .dark-bg {
-    background-color: #5a8bbe;
+    background-color: #092542;
 }
 
 .main-bg {
@@ -48,7 +49,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #942f04;
 }
 
 .author {
@@ -104,7 +105,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #10b6e8;
+    color: #151718;
 }
 
 .post-title {
