@@ -146,25 +146,6 @@ Google fonts was used in this project with both fonts selected for their legibil
 
         ![Filtering]()
 
-1. 
-
-1. Ticket Management - Technician and Administrator Role
-
-    - Users with an elevated role (Technician and Administrator) can create, edit and comment on all tickets. The elevated user ticket creation and edit forms contain all ticket fields which allows tickets to be created as other users and ticket status and category to be updated. Select image formats can be uploaded when creating a ticket as supplementary information. This image can be also be updated or removed.
-
-    - Elevated user roles can also delete tickets in case they are raised in error (deletion must be confirmed). Deletion of a ticket with an image will also delete the image from the Cloudinary hosting platform using a signal.
-
-    - These forms and models were subject to the same validation as the customer forms above.
-
-        ![Ticket management - Elevated user](docs/features/feature-technician-create-edit-view-request-min.png)
-
-        ![Ticket deletion - Elevated user](docs/features/features-technician-delete-min.png)
-
-1. Profile Management - Customer and Technician Roles
-
-    - Users are able to change the first and last name they registered with and their username. The profile also acts as a place to link to other *django-allauth* features to allow the management of email addresses and password change functionality.
-
-        ![Profile management - Customer and Technician Roles]()
 
 1. User Management - Administrator Role
 
