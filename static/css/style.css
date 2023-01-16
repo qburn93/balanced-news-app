@@ -120,14 +120,14 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #df0a20;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #df0a20;
 }
 
 .link {
