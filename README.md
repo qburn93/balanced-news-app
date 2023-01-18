@@ -59,7 +59,40 @@ NOTE: The **Staff Member** role was renamed to **Customer** towards the end of d
 
 Acceptance criteria for each user story can be viewed within the linked GitHub issue.
 
+#### Epic: News Posts
+User Stories
 
+1. As a Site User, I can view a paginated list of posts so that I can select a post I want to view. [Github Issue #1](https://github.com/qburn93/balanced-news-app)
+
+2. As a Site User, I can view a news feed table so that I can select one to read. [Github Issue #2](https://github.com/qburn93/balanced-news-app/issues/2)
+
+3. As a Site User, I can click on a news post I want to read so that I can read the full text. [Github Issue #3](https://github.com/qburn93/balanced-news-app/issues/3)
+
+4. As a Site User/Admin, I can view comments on an individual news post so that I can read the conversation. [Github Issue #4](https://github.com/qburn93/balanced-news-app/issues/4)
+
+5. As a Site Admin, I can create, read, update and delete news posts so that I can manage my news site content. [Github Issue #8](https://github.com/qburn93/balanced-news-app/issues/8)
+
+#### Epic: Comments and Interactions
+User Stories
+
+1. As a Site User, I can register an account so that I can comment and like. Github Issue #5[Github Issue #5](https://github.com/qburn93/balanced-news-app/issues/5)
+
+2. As a Site User, I can leave comments on a post so that I can be involved in the conversation. [Github Issue #6](https://github.com/qburn93/balanced-news-app/issues/6)
+
+3. As a Site User, I can like or unlike a news post so that I can interact with the content. [Github Issue #7](https://github.com/qburn93/balanced-news-app/issues/7)
+
+4. As a Site Admin, I can approve or disapprove comments so that I can filter out unwarranted comments. [Github Issue #9](https://github.com/qburn93/balanced-news-app/issues/9)
+
+#### Epic: Filtering and Viewing
+User Stories
+
+1. As a Site User, I can filter news stories by topic or category so that I can easily find the stories that interest me the most. [Github Issue #10](https://github.com/qburn93/balanced-news-app/issues/10)
+
+1. As a Site Admin, I can create draft posts so that I can finish writing the content at any time. [Github Issue #11](https://github.com/qburn93/balanced-news-app/issues/11)
+
+1. As a Site User, I can easily see what political view each news post belongs to so that I can get a better view of the political landscape of the site. [Github Issue #12](https://github.com/qburn93/balanced-news-app/issues/12)
+
+1. As a Site User, I can view likes so that I have a clear view of popular opinions. [Github Issue #13](https://github.com/qburn93/balanced-news-app/issues/12)
 
 ### Agile Methodology
 
