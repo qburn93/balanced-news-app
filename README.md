@@ -62,7 +62,7 @@ Acceptance criteria for each user story can be viewed within the linked GitHub i
 #### Epic: News Posts
 User Stories
 
-1. As a Site User, I can view a paginated list of posts so that I can select a post I want to view. [Github Issue #1](https://github.com/qburn93/balanced-news-app)
+1. As a Site User, I can view a paginated list of posts so that I can select a post I want to view. [Github Issue #1](https://github.com/qburn93/balanced-news-app/issues/1)
 
 2. As a Site User, I can view a news feed table so that I can select one to read. [Github Issue #2](https://github.com/qburn93/balanced-news-app/issues/2)
 
