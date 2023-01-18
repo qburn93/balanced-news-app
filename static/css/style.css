@@ -153,3 +153,19 @@ body {
     background: transparent;
     border: none;
 }
+
+.post-container {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .post-container {
+      width: 33.33%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .post-container {
+      width: 100%;
+    }
+  }
