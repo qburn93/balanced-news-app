@@ -98,7 +98,7 @@ User Stories
 
 All user stories were entered as issues in a GitHub Kanban project and assigned labels using the MoSCoW prioritization technique. The live project board can be found on the repository's project tab (classic project section as of 07/22) or on the following link:
 
-[Balanced News - Ticketing System User Stories - Kanban Board]().
+[Balanced News - Ticketing System User Stories - Kanban Board](https://github.com/users/qburn93/projects/9).
 
 Pull requests where linked with a user story when they contributed to completion of the acceptance criteria.
 
