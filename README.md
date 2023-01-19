@@ -98,7 +98,7 @@ User Stories
 
 All user stories were entered as issues in a GitHub Kanban project and assigned labels using the MoSCoW prioritization technique. The live project board can be found on the repository's project tab (classic project section as of 07/22) or on the following link:
 
-[Balanced News - Ticketing System User Stories - Kanban Board](https://github.com/users/qburn93/projects/9).
+[Balanced News - Posting System User Stories - Kanban Board](https://github.com/users/qburn93/projects/9).
 
 Pull requests where linked with a user story when they contributed to completion of the acceptance criteria.
 
@@ -175,7 +175,7 @@ Google fonts was used in this project with both fonts selected for their legibil
 
 1. Filters
 
-    - The ticket list has the potential to become very crowded as more news post are added and comments logged. To ease this issue the *django-filters* package was used to create a custom filterset that allows admins/users to filter news posts by Status and sort by creation date, or political views. 
+    - The post list has the potential to become very crowded as more news post are added and comments logged. To ease this issue the *django-filters* package was used to create a custom filterset that allows admins/users to filter news posts by Status and sort by creation date, or political views. 
 
         ![Filtering]()
 
@@ -188,7 +188,7 @@ Google fonts was used in this project with both fonts selected for their legibil
 
     - Bootstrap toasts were used in conjunction with Django messaging framework to report success and errors to customers as they used the site.
 
-    - Entering an invalid url (integer) will direct users to a custom 404 Error page. If the user enters a string as the ticket slug, they will be directed to the home page and be informed of the error.
+    - Entering an invalid url (integer) will direct users to a custom 404 Error page. If the user enters a string as the post slug, they will be directed to the home page and be informed of the error.
 
         ![Messaging - Toasts]()
 
@@ -213,11 +213,11 @@ Google fonts was used in this project with both fonts selected for their legibil
 ### Python Modules and Packages/Frameworks Used
 
 - Built-in Packages/Modules
-  - [datetime](https://docs.python.org/3/library/datetime.html) - Used to get current time in a timezone aware format to use when updating tickets.
+  - [datetime](https://docs.python.org/3/library/datetime.html) - Used to get current time in a timezone aware format to use when updating posts.
   - [os](https://docs.python.org/3/library/os.html) - This module provides a portable way of using operating system dependent functionality.
 
 - External Python Packages
-  - [cloudinary](https://pypi.org/project/cloudinary/1.29.0/) - Used for the Ticket Image Model field, Image upload and deletion.
+  - [cloudinary](https://pypi.org/project/cloudinary/1.29.0/) - Used for the post Image Model field, Image upload and deletion.
   - [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/0.6/) - Used to style form using Bootstrap5
   - [dj-database-url](https://pypi.org/project/dj-database-url/0.5.0/) - Allows the use of 'DATABASE_URL' environmental variable in the Django project settings file to connect to a PostgreSQL database.
   - [dj3-cloudinary-storage](https://pypi.org/project/dj3-cloudinary-storage/0.0.6/) - Facilitates integration with Cloudinary by implementing Django Storage API.
