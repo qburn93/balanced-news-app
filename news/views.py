@@ -76,23 +76,3 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('news_detail', args=[slug]))
-
-
-def post_detail(request, id):
-    post = get_object_or_404(Post, id=id)
-    if post.category == 'SPORTS':
-        return render(request, 'blog/sports_post_detail.html', {'post': post})
-    elif post.category == 'ECONOMY':
-        return render(request, 'economy_post_detail.html', {'post': post})
-    elif post.category == 'POLITICAL':
-        return render(request, 'post_detail.html', {'post': post})
-    else:
-        return render(request, 'blog/default_post_detail.html', {'post': post})
-
-
-def sports(request):
-    return render(request, 'sports.html')
-
-
-def economy(request):
-    return render(request, 'economy_post_detail.html')
