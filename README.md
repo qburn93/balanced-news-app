@@ -297,7 +297,7 @@ A separate testing document has been created as [TESTING.md](TESTING.md)
 -
 
 #### Remaining Bugs
-
+- I have a migration warrning when i tried to add the categories panel, at one point during the project i had categories in the nav bar and in the class modal of Post, but later decided i will leave it for future implementations, so i removed everything related to category from the code, but when running the server online command im getting a red warning that 1 migration is behind, I will try to fix this before submission.
 
 
 ## Deployment
@@ -401,14 +401,12 @@ repository by using the following steps...
 ### Code
 
 The following credits represent cases where code was adapted or used from external resources. Some credits in the code would have broken the PEP8 character limit and as such have links to this section in the the source code:
-
 - **#1** - 
-  - CREDIT:From Code institute's django-blog module i used the comment class and post, but added and updated it with Political views and Categories.  
+  - CREDIT:From Code institute's django-blog module i used the comment class and post, but added and updated it with Political leaning.  
   - URL: [Code institute credit](https://github.com/Code-Institute-Solutions/Django3blog/blob/master/04_building_the_models/blog/models.py)
 
 - **#2** - 
-  - CREDIT:I want to credit Codemy youtube video on dropdown menu for the category nav bar links + the bootstrap documentation on navbars 
-  - URL: [Codemy Youtube Video](https://www.youtube.com/watch?v=E-nxGwGYRXY&t=122s&ab_channel=Codemy.com)
+  - 
   
 
 
