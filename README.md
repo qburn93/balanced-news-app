@@ -137,6 +137,25 @@ Google fonts was used in this project with both fonts selected for their legibil
 
 ![Image of Database Schema]()
 
+### Libraries
+
+#### Installed Libraries
+
+| Package       | Version        |
+| ------------- | ------------- |
+| asgiref | 3.5.2 |
+| cloudinary | 1.30.0 |
+| coverage    |           7.0.3 |
+| dj-database-url | 0.5.0 |
+| dj3-cloudinary-storage | 0.0.6 |
+| Django | 3.2.16 |
+| django-crispy-forms | 1.14.0 |
+| django-extensions | 3.2.1 |
+| gunicorn | 20.1.0 |
+| psycopg2 | 2.9.5 |
+| 
+| sqlparse | 0.4.3 |
+
 
 ## Features
 
