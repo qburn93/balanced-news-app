@@ -332,6 +332,20 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
+4. As a admin, I want to edit posts so that I can correct spelling mistakes.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+| Edit Post  | Log in to the admin panel and navigate to the post detail by clicking on the post in question. At the top of the post card click on the edit button, the edit post form will show, update the caption field to the desired caption and click update to save changes and redirect back to the post detail page.  | Caption for the post to be updated | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src=""><br>
+<img src=""><br>
+<img src="">
+</details>
+
 ### Bugs
 
 #### Fixed Bugs
