@@ -218,7 +218,9 @@ Google fonts was used in this project with both fonts selected for their legibil
 
 ### Future Features
 
--
+- Given more time, I would add categories.
+- Given more time and resources I would add, trending posts based on number of clicks for the post.
+- Animated bar at the top of the page highlighting most recent important news posts. 
 
 ## Technologies Used
 
