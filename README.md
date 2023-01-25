@@ -332,7 +332,93 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
-4. As a admin, I want to edit posts so that I can correct spelling mistakes.
+
+4. As a user, I want to view post comments so that I can fulfil the aim of the app.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Comment on post  | Log in and navigate to a post detail page via feed by clicking on the post. Below the post image view the comments.  | User to be able to read all comments on the post or be made aware of no comments if there are none | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src="">
+</details>
+
+5. As a user, I want to comment on other posts so that I can interact with other users.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Comment on post  | Log in and navigate to a post detail page via feed by clicking on the post. Below the post image fill in the comment form and click on the add comment button.  | User to fill in the comment form and when submitted will be added to the comments like for the post. | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src=""><br>
+<img src="">
+</details>
+
+6. As a user, I want to log in so that I can access my account, view my profile, pictures and other user's pictures.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Log in  | Navigate to the Balanced News site and from the landing page navigate to log in, enter your username and password then click on the log in button.  | User to log in and be redirected to their profile page | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src="">
+</details>
+
+7. As a user, I want to log out so that other users using the same device cannot access my account.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Log out  | From any page whilst logged in click on the log out button located in the right hand corner of the nav bar, or if using a small screen device from the last item in the list from the hamburger menu toggle.  | User to log out successfully and be presented with the logged out page | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src="">
+</details>
+
+8. As a new user, I want to register an account with Pic Pals so that I can become a member and use the app as intended.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Register  | Navigate to the balanced News site and click on the Sign up button located below the log in section. Fill in the form with the required fields for registration and click on the create account button.  | User to create an account with the information provided in the form    | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src=""><br>
+<img src="">
+</details>
+
+9. As a user, I want to view the Home Page so that I can understand what the website is about, create an account or log in.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Home Page  | Navigate to the Balanced News landing page  | Users will be presented with a small description of the sites purpose | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src="">
+</details>
+
+10. As a user, I want to view how many likes a post has so that I can gauge how popular a post is.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+| Like count  | Log in and navigate to any post detail page via one of the methods to do so as explained above. Scroll down to below the post image and the like count will be displayed  | To view the total amount of likes a post has. | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="">
+</details>
+
+#### Testing User Stories - Site Owner
+
+1. As a admin, I want to edit posts so that I can correct spelling mistakes.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
@@ -346,83 +432,11 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
-5. As a user, I want to view post comments so that I can fulfil the aim of the app.
+29. As the site owner, I would want to have the ability to remove posts so that I can keep the app clean and friendly.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Comment on post  | Log in and navigate to a post detail page via feed by clicking on the post. Below the post image view the comments.  | User to be able to read all comments on the post or be made aware of no comments if there are none | Works as intended |
-
-<details>
-<summary>Screenshots</summary>
-<img src="">
-</details>
-
-6. As a user, I want to comment on other posts so that I can interact with other users.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|  Comment on post  | Log in and navigate to a post detail page via feed by clicking on the post. Below the post image fill in the comment form and click on the add comment button.  | User to fill in the comment form and when submitted will be added to the comments like for the post. | Works as expected |
-
-<details>
-<summary>Screenshots</summary>
-<img src=""><br>
-<img src=""><br>
-<img src="">
-</details>
-
-7. As a user, I want to log in so that I can access my account, view my profile, pictures and other user's pictures.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|  Log in  | Navigate to the Balanced News site and from the landing page navigate to log in, enter your username and password then click on the log in button.  | User to log in and be redirected to their profile page | Works as expected |
-
-<details>
-<summary>Screenshots</summary>
-<img src=""><br>
-<img src="">
-</details>
-
-8. As a user, I want to log out so that other users using the same device cannot access my account.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|  Log out  | From any page whilst logged in click on the log out button located in the right hand corner of the nav bar, or if using a small screen device from the last item in the list from the hamburger menu toggle.  | User to log out successfully and be presented with the logged out page | Works as intended |
-
-<details>
-<summary>Screenshots</summary>
-<img src=""><br>
-<img src="">
-</details>
-
-9. As a new user, I want to register an account with Pic Pals so that I can become a member and use the app as intended.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|  Register  | Navigate to the balanced News site and click on the Sign up button located below the log in section. Fill in the form with the required fields for registration and click on the create account button.  | User to create an account with the information provided in the form    | Works as intended |
-
-<details>
-<summary>Screenshots</summary>
-<img src=""><br>
-<img src=""><br>
-<img src="">
-</details>
-
-10. As a user, I want to view the Home Page so that I can understand what the website is about, create an account or log in.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|  Home Page  | Navigate to the Balanced News landing page  | Users will be presented with a small description of the sites purpose | Works as intended |
-
-<details>
-<summary>Screenshots</summary>
-<img src="">
-</details>
-
-11. As a user, I want to view how many likes a post has so that I can gauge how popular a post is.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-| Like count  | Log in and navigate to any post detail page via one of the methods to do so as explained above. Scroll down to below the post image and the like count will be displayed  | To view the total amount of likes a post has. | Works as expected |
+|  Delete Post  | Admin to log into the admin site of the app and from there go to the posts object and delete the required post database entry  | Admin to log into the admin site and have the ability to delete a post of any user as this profile is a super user | Works as intended |
 
 <details>
 <summary>Screenshots</summary>
