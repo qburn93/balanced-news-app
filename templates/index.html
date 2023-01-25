@@ -3,9 +3,14 @@
 {% block content %}
 
 <div class="container-fluid">
+    <div class="intro-container text-center">
+        <h1 class="intro-title">Welcome to our News Website</h1>
+        <p class="intro-description">Here you can find the latest news and updates on a variety of topics, covering a range of political views.</p>
+    </div>
     <div class="row">
 
         <!-- Blog Entries Column -->
+        
         <div class="col-12 mt-3 left">
             <div class="row">
                 {% for post in post_list %}

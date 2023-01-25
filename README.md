@@ -267,15 +267,9 @@ Google fonts was used in this project with both fonts selected for their legibil
     Push to GitHub.
 - [GitHub:](https://github.com/)
   - GitHub is used to store the projects code after being pushed from Git.
-- [GIMP:](https://www.gimp.org/)
-  - GIMP was used to edit and resize photos for the readme.
 - [Balsamiq:](https://balsamiq.com/)
   - Balsamiq was used to create the [wireframes](#wireframes) during the design
     process.
-- [Coolors](https://coolors.co/image-recolor)
-  - Coolors Artwork Recolor was used to alter the hero images colours.
-- [TinyJPG](https://tinyjpg.com/)
-  - Used to compress images for the README.
 - The following modules were installed or enabled in [Visual Studio
 Code](https://code.visualstudio.com/) to assist with formatting and code
 linting:

@@ -160,12 +160,32 @@ body {
 
 @media (min-width: 768px) {
     .post-container {
-      width: 33.33%;
+        width: 33.33%;
     }
-  }
+}
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     .post-container {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
+
+.intro-container {
+    padding: 30px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro-title {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro-description {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.5;
+}
