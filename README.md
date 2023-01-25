@@ -370,7 +370,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
-10. As a user, I want to log in so that I can access my account, view my profile, pictures and other user's pictures.
+7. As a user, I want to log in so that I can access my account, view my profile, pictures and other user's pictures.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
@@ -382,7 +382,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
-11. As a user, I want to log out so that other users using the same device cannot access my account.
+8. As a user, I want to log out so that other users using the same device cannot access my account.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
@@ -390,6 +390,19 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
+<img src=""><br>
+<img src="">
+</details>
+
+9. As a new user, I want to register an account with Pic Pals so that I can become a member and use the app as intended.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Register  | Navigate to the balanced News site and click on the Sign up button located below the log in section. Fill in the form with the required fields for registration and click on the create account button.  | User to create an account with the information provided in the form    | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
 <img src=""><br>
 <img src="">
 </details>
