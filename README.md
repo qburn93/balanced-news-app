@@ -288,9 +288,36 @@ linting:
   - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) - Makes indentation easier to read.
   - [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) - Generates python docstrings templates automatically
 
-## Testing
+## Manuel Testing
 
-A separate testing document has been created as [TESTING.md](TESTING.md)
+<summary>See Testing User Stories</summary>
+
+#### Testing User Stories - Users
+
+To avoid unnecessary repetition of images, only the feature being referred to will have screenshots. Information on how to navigate to the feature referred to will be described within its relevant table reference. 
+
+1. As a user, I want to use the navigation bar so that I can seamlessly navigate around the app.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Nav Bar  | Log in and scroll to the top of any page  | Nav Bar to be displayed along the top of the page or via a hamburger toggle if on a smaller screen    | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="">
+</details>
+
+2. As a user, I want to see visual indicators for example of having liked a post / followed a user so that I can tell if I have previously liked that post.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Like Button  | Log in and navigate to a post detail page via feed by clicking on the post. Below the post click on the heart icon to like or unlike the post  | Post heart indicator to visually reflect the current users status with regards to liking the post and the total like tally to plus or minus one like dependant on if the click is a like or unlike  | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src="">
+</details>
 
 ### Bugs
 
