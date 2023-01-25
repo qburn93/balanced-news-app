@@ -432,11 +432,22 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
-29. As the site owner, I would want to have the ability to remove posts so that I can keep the app clean and friendly.
+2. As the site owner, I would want to have the ability to remove posts so that I can keep the app clean and friendly.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
 |  Delete Post  | Admin to log into the admin site of the app and from there go to the posts object and delete the required post database entry  | Admin to log into the admin site and have the ability to delete a post of any user as this profile is a super user | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src="">
+</details>
+
+3. As the site owner, I would want the site to be fully responsive so that users can use it across multiple devices and create a good user experience.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Responsiveness  | Allow users to use the site on their own device regardless of the size  | The site is functional and works as intended on a range of device screen sizes  | Works as intended |
 
 <details>
 <summary>Screenshots</summary>
