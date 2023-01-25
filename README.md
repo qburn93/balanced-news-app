@@ -346,6 +346,17 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
+5. As a user, I want to view post comments so that I can fulfil the aim of the app.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Comment on post  | Log in and navigate to a post detail page via feed by clicking on the post. Below the post image view the comments.  | User to be able to read all comments on the post or be made aware of no comments if there are none | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src="">
+</details>
+
 ### Bugs
 
 #### Fixed Bugs
