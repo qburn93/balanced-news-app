@@ -407,6 +407,28 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
+10. As a user, I want to view the Home Page so that I can understand what the website is about, create an account or log in.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Home Page  | Navigate to the Balanced News landing page  | Users will be presented with a small description of the sites purpose | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src="">
+</details>
+
+11. As a user, I want to view how many likes a post has so that I can gauge how popular a post is.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+| Like count  | Log in and navigate to any post detail page via one of the methods to do so as explained above. Scroll down to below the post image and the like count will be displayed  | To view the total amount of likes a post has. | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="">
+</details>
+
 ### Bugs
 
 #### Fixed Bugs
