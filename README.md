@@ -319,6 +319,19 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
+3. As a user, I want to like and unlike posts so that I can show my appreciation of another user's post.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Like Button  | Log in and navigate to a post detail page via feed or a user's profile by clicking on the post. Below the post click on the heart icon to like or unlike the post  | Post heart indicator to visually reflect the current user's status with regards to liking the post and the total like tally to plus or minus one like dependant on if the click is a like or unlike | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src=""><br>
+<img src="">
+</details>
+
 ### Bugs
 
 #### Fixed Bugs
