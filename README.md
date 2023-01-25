@@ -370,6 +370,18 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
+10. As a user, I want to log in so that I can access my account, view my profile, pictures and other user's pictures.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Log in  | Navigate to the Balanced News site and from the landing page navigate to log in, enter your username and password then click on the log in button.  | User to log in and be redirected to their profile page | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src="">
+</details>
+
 ### Bugs
 
 #### Fixed Bugs
