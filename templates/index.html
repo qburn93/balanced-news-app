@@ -4,13 +4,13 @@
 
 <div class="container-fluid">
     <div class="intro-container text-center">
-        <h1 class="intro-title">Welcome to our News Website</h1>
-        <p class="intro-description">Here you can find the latest news and updates on a variety of topics, covering a range of political views.</p>
+        <h1 class="intro-title">Welcome to Balanced News</h1>
+        <p class="intro-description">Stay informed and engaged with our wide range of news topics.</p>
     </div>
     <div class="row">
 
         <!-- Blog Entries Column -->
-        
+
         <div class="col-12 mt-3 left">
             <div class="row">
                 {% for post in post_list %}
@@ -27,7 +27,7 @@
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
-                                
+
                             </div>
                             <a href="{% url 'news_detail' post.slug  %}" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
@@ -40,10 +40,10 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <div class="row">
-                
+
                 {% endfor %}
 
             </div>

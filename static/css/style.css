@@ -178,10 +178,16 @@ body {
 }
 
 .intro-title {
+    animation: fadeIn 2s ease-in;
     font-size: 3em;
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .intro-description {
@@ -189,3 +195,5 @@ body {
     color: #555;
     line-height: 1.5;
 }
+
+
