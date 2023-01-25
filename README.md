@@ -382,6 +382,18 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
+11. As a user, I want to log out so that other users using the same device cannot access my account.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Log out  | From any page whilst logged in click on the log out button located in the right hand corner of the nav bar, or if using a small screen device from the last item in the list from the hamburger menu toggle.  | User to log out successfully and be presented with the logged out page | Works as intended |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src="">
+</details>
+
 ### Bugs
 
 #### Fixed Bugs
