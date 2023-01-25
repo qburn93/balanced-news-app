@@ -357,6 +357,19 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src="">
 </details>
 
+6. As a user, I want to comment on other posts so that I can interact with other users.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Comment on post  | Log in and navigate to a post detail page via feed by clicking on the post. Below the post image fill in the comment form and click on the add comment button.  | User to fill in the comment form and when submitted will be added to the comments like for the post. | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src=""><br>
+<img src=""><br>
+<img src="">
+</details>
+
 ### Bugs
 
 #### Fixed Bugs
