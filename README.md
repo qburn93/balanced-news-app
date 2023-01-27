@@ -310,22 +310,11 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img href=""><br>
-<img src="">
+<a href="https://imgur.com/qsB4itk"><img src="https://i.imgur.com/qsB4itk.png" title="source: imgur.com" /></a><br>
+<a href="https://imgur.com/TbVW9ea"><img src="https://i.imgur.com/TbVW9ea.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
-3. As a user, I want to like and unlike posts so that I can show my appreciation of another user's post.
-
-| Feature       | Action        | Expected Result  | Actual Result |
-| ------------- | ------------- | -------------    | ------------- |
-|  Like Button  | Log in and navigate to a post detail page via feed or a user's profile by clicking on the post. Below the post click on the heart icon to like or unlike the post  | Post heart indicator to visually reflect the current user's status with regards to liking the post and the total like tally to plus or minus one like dependant on if the click is a like or unlike | Works as expected |
-
-<details>
-<summary>Screenshots</summary>
-<a href="https://imgur.com/qsB4itk"><img src="https://i.imgur.com/qsB4itk.png" title="source: imgur.com" /></a>
-</details>
-<br>
 
 4. As a user, I want to view post comments so that I can fulfil the aim of the app.
 
@@ -335,7 +324,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src="">
+<a href="https://imgur.com/7B7o4NX"><img src="https://i.imgur.com/7B7o4NX.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
@@ -347,9 +336,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src=""><br>
-<img src=""><br>
-<img src="">
+<a href="https://imgur.com/QF04QKO"><img src="https://i.imgur.com/QF04QKO.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
@@ -361,8 +348,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src=""><br>
-<img src="">
+<a href="https://imgur.com/nf4lrin"><img src="https://i.imgur.com/nf4lrin.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
@@ -374,8 +360,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src=""><br>
-<img src="">
+<a href="https://imgur.com/FtrxbUu"><img src="https://i.imgur.com/FtrxbUu.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
@@ -387,9 +372,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src=""><br>
-<img src=""><br>
-<img src="">
+<a href="https://imgur.com/WLDyGsg"><img src="https://i.imgur.com/WLDyGsg.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
