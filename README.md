@@ -1,11 +1,8 @@
 # Balanced News
-
-
-
-- 
+ 
 This is the 4th portfolio project developed as part of the Code Institute Diploma in Full Stack Development. It was created to demonstrate skills acquired using Django to design and develop websites that offer full CRUD (create, read, update and delete) functionality.
 
-![Multi Device Screenshot]()
+![Multi Device Screenshot](https://i.imgur.com/oH8zvIq.png)
 
 ## Demo
 
