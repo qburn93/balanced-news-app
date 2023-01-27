@@ -358,7 +358,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<a href="https://imgur.com/FtrxbUu"><img src="https://i.imgur.com/FtrxbUu.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/Grm3UGw"><img src="https://i.imgur.com/Grm3UGw.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
