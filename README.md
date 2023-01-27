@@ -439,7 +439,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <br>
 
 ### Bugs
-
+- Currently while logged in via mobile, the liking of the post seems to be bugged.
 #### Fixed Bugs
 
 -
@@ -447,7 +447,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 #### Remaining Bugs
 - I have a migration warrning when i tried to add the categories panel, at one point during the project i had categories in the nav bar and in the class modal of Post, but later decided i will leave it for future implementations, so i removed everything related to category from the code, but when running the server online command im getting a red warning that 1 migration is behind, I will try to fix this before submission.
 
-
+- Currently while logged in via mobile, the liking of the post seems to be bugged.Due to strict time restraint I was not able to pinpoint the issue. 
 ## Deployment
 
 ### Forking the GitHub Repository
