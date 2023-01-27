@@ -436,7 +436,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src="">
+<a href="https://imgur.com/oH8zvIq"><img src="https://i.imgur.com/oH8zvIq.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
