@@ -384,7 +384,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src="">
+<a href="https://imgur.com/V8HIGnS"><img src="https://i.imgur.com/V8HIGnS.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
@@ -396,7 +396,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src="">
+<a href="https://imgur.com/EFWedik"><img src="https://i.imgur.com/EFWedik.png" title="source: imgur.com" /></a>
 </details>
 <br>
 #### Testing User Stories - Site Owner
@@ -409,10 +409,10 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src=""><br>
-<img src=""><br>
-<img src=""><br>
-<img src="">
+<a href="https://imgur.com/jWzpXFl"><img src="https://i.imgur.com/jWzpXFl.png" title="source: imgur.com" /></a><br>
+<a href="https://imgur.com/He2kXUZ"><img src="https://i.imgur.com/He2kXUZ.png" title="source: imgur.com" /></a><br>
+<a href="https://imgur.com/OfDVk20"><img src="https://i.imgur.com/OfDVk20.png" title="source: imgur.com" /></a><br>
+
 </details>
 <br>
 
