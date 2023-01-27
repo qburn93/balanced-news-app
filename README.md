@@ -300,6 +300,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <summary>Screenshots</summary>
 <img src="">
 </details>
+<br>
 
 2. As a user, I want to see visual indicators for example of having liked a post / followed a user so that I can tell if I have previously liked that post.
 
@@ -309,9 +310,10 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src=""><br>
+<img href=""><br>
 <img src="">
 </details>
+<br>
 
 3. As a user, I want to like and unlike posts so that I can show my appreciation of another user's post.
 
@@ -321,11 +323,9 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src=""><br>
-<img src=""><br>
-<img src="">
+<a href="https://imgur.com/qsB4itk"><img src="https://i.imgur.com/qsB4itk.png" title="source: imgur.com" /></a>
 </details>
-
+<br>
 
 4. As a user, I want to view post comments so that I can fulfil the aim of the app.
 
@@ -337,6 +337,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <summary>Screenshots</summary>
 <img src="">
 </details>
+<br>
 
 5. As a user, I want to comment on other posts so that I can interact with other users.
 
@@ -350,6 +351,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src=""><br>
 <img src="">
 </details>
+<br>
 
 6. As a user, I want to log in so that I can access my account, view my profile, pictures and other user's pictures.
 
@@ -362,6 +364,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src=""><br>
 <img src="">
 </details>
+<br>
 
 7. As a user, I want to log out so that other users using the same device cannot access my account.
 
@@ -374,6 +377,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src=""><br>
 <img src="">
 </details>
+<br>
 
 8. As a new user, I want to register an account with Pic Pals so that I can become a member and use the app as intended.
 
@@ -387,6 +391,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src=""><br>
 <img src="">
 </details>
+<br>
 
 9. As a user, I want to view the Home Page so that I can understand what the website is about, create an account or log in.
 
@@ -398,6 +403,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <summary>Screenshots</summary>
 <img src="">
 </details>
+<br>
 
 10. As a user, I want to view how many likes a post has so that I can gauge how popular a post is.
 
@@ -409,7 +415,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <summary>Screenshots</summary>
 <img src="">
 </details>
-
+<br>
 #### Testing User Stories - Site Owner
 
 1. As a admin, I want to edit posts so that I can correct spelling mistakes.
@@ -425,6 +431,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <img src=""><br>
 <img src="">
 </details>
+<br>
 
 2. As the site owner, I would want to have the ability to remove posts so that I can keep the app clean and friendly.
 
@@ -436,6 +443,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <summary>Screenshots</summary>
 <img src="">
 </details>
+<br>
 
 3. As the site owner, I would want the site to be fully responsive so that users can use it across multiple devices and create a good user experience.
 
@@ -447,6 +455,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <summary>Screenshots</summary>
 <img src="">
 </details>
+<br>
 
 ### Bugs
 
