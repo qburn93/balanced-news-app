@@ -328,7 +328,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 </details>
 <br>
 
-5. As a user, I want to comment on other posts so that I can interact with other users.
+5. As a user, I want to comment on other posts so that I can interact with posts.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
