@@ -340,11 +340,11 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 </details>
 <br>
 
-6. As a user, I want to log in so that I can access my account, view my profile, pictures and other user's pictures.
+6. As a user, I want to log in so that I can access 100% of the site.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
-|  Log in  | Navigate to the Balanced News site and from the landing page navigate to log in, enter your username and password then click on the log in button.  | User to log in and be redirected to their profile page | Works as expected |
+|  Log in  | Navigate to the Balanced News site and from the landing page navigate to log in, enter your username and password then click on the log in button.  | User to log in | Works as expected |
 
 <details>
 <summary>Screenshots</summary>
@@ -364,7 +364,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 </details>
 <br>
 
-8. As a new user, I want to register an account with Pic Pals so that I can become a member and use the app as intended.
+8. As a new user, I want to register an account with balanced news so that I can become a member and use the app as intended.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
