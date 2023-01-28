@@ -195,20 +195,13 @@ The Comment model object represents a comment a user has posted on an individual
 
 1. Home Page
 
-    - The functionality of the site is restricted to registered users in line with its purpose to assist individuals. The home page was therefore designed to welcome customers and provide an introduction to make the site purpose clear. There are clear links to encourage visitors to signup and allow existing users to login. The home page is fully responsive and is based on the site's base template, therefore includes the site wide navigation and footer elements.
+    - The functionality of commenting posts on the site is restricted to un-registered users in line with its purpose. The home page was therefore designed to welcome users and provide an introduction to make the site purpose clear. There are clear links to encourage visitors to signup and allow existing users to login. The home page is fully responsive and is based on the site's base template, therefore includes the site wide navigation and footer elements.
 
         ![Home Page](docs/features/features-homepage-min.png)
 
 1. Navigation
 
-    -
-
-    
-
-    - 
-
-
-    - Administrators see links to manage their profile and logout, but also the link to the user search page.
+    - Administrators see links to manage their posts and logout.
 
         ![NavBar - administrator]()
 
@@ -228,24 +221,14 @@ The Comment model object represents a comment a user has posted on an individual
 
 1. Filters
 
-    - The post list has the potential to become very crowded as more news post are added and comments logged. To ease this issue the *django-filters* package was used to create a custom filterset that allows admins/users to filter news posts by Status and sort by creation date, or political views. 
+    - The post list has the potential to become very crowded as more news post are added and comments logged. To ease this issue the *django-filters* package was used to create a custom filterset that allows admins/employers filter news posts by Status and sort by creation date, or political views. 
 
-        ![Filtering]()
-
-
-1. User Management - Administrator Role
-
-    - 
 
 1. Messaging and Email
 
     - Bootstrap toasts were used in conjunction with Django messaging framework to report success and errors to customers as they used the site.
 
     - Entering an invalid url (integer) will direct users to a custom 404 Error page. If the user enters a string as the post slug, they will be directed to the home page and be informed of the error.
-
-        ![Messaging - Toasts]()
-
-   
 
 ### Features Not Implemented
 
