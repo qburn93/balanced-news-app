@@ -319,7 +319,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 </details>
 <br>
 
-2. As a user, I want to see visual indicators for example of having liked a post / followed a user so that I can tell if I have previously liked that post.
+2. As a user, I want to see visual indicators for example of having liked a post so that I can tell if I have previously liked that post.
 
 | Feature       | Action        | Expected Result  | Actual Result |
 | ------------- | ------------- | -------------    | ------------- |
@@ -461,10 +461,10 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 - Currently while logged in via mobile, the liking of the post seems to be bugged.
 #### Fixed Bugs
 
--
+- I encountered a problem with the post excerpt on the index template where the post's title was not visible. After digging on Slack for about 1 hour, I discovered that the issue was caused by the post not being marked as "content | safe." Once I made this change, the post's title was displayed correctly.
 
 #### Remaining Bugs
-- I have a migration warrning when i tried to add the categories panel, at one point during the project i had categories in the nav bar and in the class modal of Post, but later decided i will leave it for future implementations, so i removed everything related to category from the code, but when running the server online command im getting a red warning that 1 migration is behind, I will try to fix this before submission.
+- I encountered a migration warning when attempting to add the categories panel. At one point in the project, I had categories included in the navigation bar and the class modal of Post, but later decided to postpone their implementation and removed all related code. However, upon running the server's online command, I received a warning that one migration is behind. I plan to resolve this issue before submitting the project. This does however not affect the website in any way.
 
 - Currently while logged in via mobile, the liking of the post seems to be bugged.Due to strict time restraint I was not able to pinpoint the issue. 
 ## Deployment
