@@ -574,12 +574,10 @@ The following credits represent cases where code was adapted or used from extern
 
 - **#2** - 
   - 
-  
-
-
-### Media
-
-- 
+   
 
 ### Acknowledgments
+I would like to extend my gratitude to the following individuals for their invaluable contributions to this project:
 
+- The Code Institute tutor support team for providing assistance with the challenges I encountered.
+- My Code Institute mentor, Sammy Dartnall, for her unwavering support and guidance throughout this project.
