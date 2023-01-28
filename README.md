@@ -53,8 +53,6 @@ The initial aims of the project which formed the basis for user story creation w
 
 ### User Stories
 
-NOTE: The **Staff Member** role was renamed to **Customer** towards the end of development. This was based on feedback to bring the role further in line with the site purpose but user stories still refer to this role as **Staff Member**.
-
 Acceptance criteria for each user story can be viewed within the linked GitHub issue.
 
 #### Epic: News Posts
@@ -136,40 +134,27 @@ Google fonts was used in this project with both fonts selected for their legibil
 []() - Use in headings.
 []() - Use in paragraphs and labels.
 
-#### Images and Iconography
-
-
 
 #### Database models
 
 #### Post Model
 
-The Post model object represents a users post and consists of the following fields
-- id (UUIDField)
-- created_date (DateTimeField)
-- user (ForeignKey)
-- image (CloudinaryField)
-- caption (TextField)
-- caption_edited (BooleanField)
-- caption_edited_time (DateTimeField)
-- likes (IntegerField)
-
+The Post model object represents a users post and consists of the following fields.
+![Post model](https://i.imgur.com/hgguZRy.png)
 #### Like Model
 
-The Like model object represents a user has liked an individual post contains and consists of the following fields
+The Like model object represents a user has liked an individual post contains and consists of the following fields.
 - user (ForeignKey - User)
 - post (Foreign Key - Post)
 
 #### Comment Model
 
 The Comment model object represents a comment a user has posted on an individual post contains and consists of the following fields
-- post (ForeignKey - Post)
-- user (ForeignKey - User)
-- comment_body (TextField)
-- created_on (DateTimeField)
+![Imgur](https://i.imgur.com/DAhsSwX.png)
 
-
-![Image of Database Schema]()
+#### Likes Model
+The Like model object represents a user has liked an individual post contains and consists of the following fields.
+![Imgur](https://i.imgur.com/dTXKmSG.png)
 
 ### Libraries
 
@@ -197,7 +182,7 @@ The Comment model object represents a comment a user has posted on an individual
 
     - The functionality of commenting posts on the site is restricted to un-registered users in line with its purpose. The home page was therefore designed to welcome users and provide an introduction to make the site purpose clear. There are clear links to encourage visitors to signup and allow existing users to login. The home page is fully responsive and is based on the site's base template, therefore includes the site wide navigation and footer elements.
 
-        ![Home Page](docs/features/features-homepage-min.png)
+        ![Home Page]()
 
 1. Navigation
 
@@ -460,8 +445,8 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 ### Bugs
 - Currently while logged in via mobile, the liking of the post seems to be bugged.
 #### Fixed Bugs
-
 - I encountered a problem with the post excerpt on the index template where the post's title was not visible. After digging on Slack for about 1 hour, I discovered that the issue was caused by the post not being marked as "content | safe." Once I made this change, the post's title was displayed correctly.
+![fixed bug](https://i.imgur.com/sappdAL.png)
 
 #### Remaining Bugs
 - I encountered a migration warning when attempting to add the categories panel. At one point in the project, I had categories included in the navigation bar and the class modal of Post, but later decided to postpone their implementation and removed all related code. However, upon running the server's online command, I received a warning that one migration is behind. I plan to resolve this issue before submitting the project. This does however not affect the website in any way.
