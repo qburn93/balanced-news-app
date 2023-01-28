@@ -466,7 +466,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 #### Remaining Bugs
 - I encountered a migration warning when attempting to add the categories panel. At one point in the project, I had categories included in the navigation bar and the class modal of Post, but later decided to postpone their implementation and removed all related code. However, upon running the server's online command, I received a warning that one migration is behind. I plan to resolve this issue before submitting the project. This does however not affect the website in any way.
 
-- Currently while logged in via mobile, the liking of the post seems to be bugged.Due to strict time restraint I was not able to pinpoint the issue. 
+- At present, when logged in on a mobile device, there appears to be a bug with the functionality to like posts. It could be caused by the comment icon and liking icon being too close together, which may be affecting the click area of the "heart" button. Due to time constraints, I was not able to identify the specific cause of the problem nor fix it. 
 ## Deployment
 
 ### Forking the GitHub Repository
