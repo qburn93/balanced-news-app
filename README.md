@@ -113,7 +113,18 @@ I created Wireframes to visualize the site's design and act as a template to use
 
 #### Colour Scheme
 
+### Structure
 
+#### Web pages
+
+User experience was one of the main driving factors in this project. A simple, clear and easy to navigate app was the desired outcome. To achieve this at the top of each page is a Nav Bar with links to the right hand side or in the form of a hamburger toggle button if using a small screen device in which all links will be listed vertically. At the bottom of each page the developer's social links can be found to allow further networking with users of the site.
+
+The site consists of the following sections:
+- Home page in which a logged in user will be displayed their profile and if no user is logged in will display the log in form, and register a new account buttons
+- Register page where new users can register an account with Balanced News
+- Feed page where all posts will be shown, posts will be displayed in order by date of most recent.
+- Post detail page where a more in depth view of a post will be shown, this will include a like button, like count and comments section.
+- Add post page where a logged site owner or site employer can create a new post.
 
 ![Background Colour]()
 
@@ -129,8 +140,33 @@ Google fonts was used in this project with both fonts selected for their legibil
 
 
 
-#### Database Schema
+#### Database models
 
+#### Post Model
+
+The Post model object represents a users post and consists of the following fields
+- id (UUIDField)
+- created_date (DateTimeField)
+- user (ForeignKey)
+- image (CloudinaryField)
+- caption (TextField)
+- caption_edited (BooleanField)
+- caption_edited_time (DateTimeField)
+- likes (IntegerField)
+
+#### Like Model
+
+The Like model object represents a user has liked an individual post contains and consists of the following fields
+- user (ForeignKey - User)
+- post (Foreign Key - Post)
+
+#### Comment Model
+
+The Comment model object represents a comment a user has posted on an individual post contains and consists of the following fields
+- post (ForeignKey - Post)
+- user (ForeignKey - User)
+- comment_body (TextField)
+- created_on (DateTimeField)
 
 
 ![Image of Database Schema]()
@@ -280,7 +316,7 @@ linting:
   - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) - Makes indentation easier to read.
   - [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) - Generates python docstrings templates automatically
 
-## Manuel Testing
+## Manual Testing
 
 <summary>See Testing User Stories</summary>
 
