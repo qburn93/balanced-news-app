@@ -7,7 +7,7 @@ With a tight deadline of only 16 days, I couldn't have finished this project wit
 
 ## Demo
 
-[View the live project here.]()
+[View the live project here.](https://balanced-news-app.herokuapp.com/)
 
 ## TOC
 
@@ -121,7 +121,7 @@ The site consists of the following sections:
 - Home page in which a logged in user will be displayed their profile and if no user is logged in will display the log in form, and register a new account buttons
 - Register page where new users can register an account with Balanced News
 - Feed page where all posts will be shown, posts will be displayed in order by date of most recent.
-- Post detail page where a more in depth view of a post will be shown, this will include a like button, like count and comments section.
+- News post detail page where a more in depth view of a post will be shown, this will include a like button, like count and comments section.
 - Add post page where a logged site owner or site employer can create a new post.
 
 ![Background Colour]()
@@ -182,17 +182,13 @@ The Like model object represents a user has liked an individual post contains an
 
     - The functionality of commenting posts on the site is restricted to un-registered users in line with its purpose. The home page was therefore designed to welcome users and provide an introduction to make the site purpose clear. There are clear links to encourage visitors to signup and allow existing users to login. The home page is fully responsive and is based on the site's base template, therefore includes the site wide navigation and footer elements.
 
-        ![Home Page]()
+        ![Home Page](https://i.imgur.com/40OLp28.png)
 
 1. Navigation
 
-    - Administrators see links to manage their posts and logout.
-
-        ![NavBar - administrator]()
-
     - Navigation on smaller viewports
 
-        ![NavBar - collapsible]()
+        ![NavBar - collapsible](https://i.imgur.com/24XVw7A.png)
 
 1. Signup, Login and other account management pages
 
@@ -200,9 +196,12 @@ The Like model object represents a user has liked an individual post contains an
 
     - The *django-allauth* signup page shown below was extended to request a user's name as part of the signup process. This also demonstrates how the styling of the *django-allauth* templates were altered to make them cohesive with the rest of the site. Forms were styled using the *crispy-bootstrap5* package.
 
-        ![Account Signup]()
+        ![Account Signup-Mobile](https://i.imgur.com/YwecgsW.png)
+        ![Account Logout](https://i.imgur.com/Grm3UGw.png)
+        ![Account Login](https://i.imgur.com/nf4lrin.png)
 
-
+2. News post details
+        ![News post details](https://i.imgur.com/UAH04Tn.png)
 
 1. Filters
 
@@ -217,6 +216,10 @@ The Like model object represents a user has liked an individual post contains an
 
 ### Features Not Implemented
 
+- Catergories.
+- Trending/popular posts.
+- Local weather and location api.
+- Animated latest news text at the top of the website.
 
 ### Future Features
 
