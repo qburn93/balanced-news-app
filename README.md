@@ -224,10 +224,12 @@ The Like model object represents a user has liked an individual post contains an
   clicking on a news post.
 
 ### Future Features
-
-- Given more time, I would add categories.
-- Given more time and resources I would add, trending posts based on number of clicks for the post.
-- Animated bar at the top of the page highlighting most recent important news posts. 
+Given more time I would like to add:
+- Categories.
+- Trending posts based on number of clicks for the post.
+- Animated bar at the top of the page highlighting most recent important news posts.
+- Informing user to create account if they wish to comment after    
+  clicking on a news post. 
 
 ## Technologies Used
 
