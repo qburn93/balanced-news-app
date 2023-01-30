@@ -307,7 +307,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<img src="">
+<a href="https://imgur.com/xWivpxC"><img src="https://i.imgur.com/xWivpxC.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
@@ -381,7 +381,7 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 
 <details>
 <summary>Screenshots</summary>
-<a href="https://imgur.com/WLDyGsg"><img src="https://i.imgur.com/WLDyGsg.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/A58DQrm"><img src="https://i.imgur.com/A58DQrm.png" title="source: imgur.com" /></a>
 </details>
 <br>
 
