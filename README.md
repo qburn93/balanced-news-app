@@ -113,7 +113,7 @@ I created Wireframes to visualize the site's design and act as a template to use
   - (https://i.imgur.com/LqTkFtl.png)
 
 #### Colour Scheme
-
+![Color Scheme](https://i.imgur.com/ayEKLXI.png)
 ### Structure
 
 #### Web pages
