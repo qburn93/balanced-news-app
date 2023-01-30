@@ -220,6 +220,8 @@ The Like model object represents a user has liked an individual post contains an
 - Trending/popular posts.
 - Local weather and location api.
 - Animated latest news text at the top of the website.
+- Informing user to create account if they wish to comment after    
+  clicking on a news post.
 
 ### Future Features
 
