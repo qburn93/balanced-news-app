@@ -107,10 +107,11 @@ Pull requests where linked with a user story when they contributed to completion
 
 I created Wireframes to visualize the site's design and act as a template to use when developing the templates. When designing the site I wanted to ensure the site looked and functioned just as well on mobile as larger viewports.
 
-- [Wireframe Links Mobile]()
-- [Wireframe Links Desktop]
-  - (https://i.imgur.com/dWVFuWU.png)
-  - (https://i.imgur.com/LqTkFtl.png)
+- ![Wireframe Landing Page Desktop](https://i.imgur.com/VWs1KfF.png)
+- ![Wireframe Create account Page Desktop](https://i.imgur.com/31n5mzl.png)
+- ![Wireframe Sign in page Desktop](https://i.imgur.com/maLABTT.png)
+- ![Wireframe Sign out page Desktop](https://i.imgur.com/PqR3eXD.png)
+- ![Wireframe Landing Page Mobile](https://i.imgur.com/aDPigMv.png)
 
 #### Colour Scheme
 ![Color Scheme](https://i.imgur.com/ayEKLXI.png)
@@ -126,9 +127,6 @@ The site consists of the following sections:
 - Feed page where all posts will be shown, posts will be displayed in order by date of most recent.
 - News post detail page where a more in depth view of a post will be shown, this will include a like button, like count and comments section.
 - Add post page where a logged site owner or site employer can create a new post.
-
-![Background Colour]()
-
 
 #### Typography
 
