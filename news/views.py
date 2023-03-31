@@ -31,7 +31,7 @@ def category(request, category_name):
         'posts': posts,
         'categories': Category.objects.all(),
     }
-    return render(request, 'news/category.html', context)
+    return render(request, 'category.html', context)
 
 
 class NewsPostDetail(View):
