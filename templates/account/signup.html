@@ -7,6 +7,19 @@
 {% block content %}
 <div class="container">
     <div class="row">
+        <div class=".signup-image-container">
+            <div class="row">
+                <!-- Add the new image container here -->
+                <div class="col-md-6 offset-md-3 signup-image-container">
+                    <a href="#">
+                        <img src="https://i.imgur.com/j6VY0qL.jpg" alt="Your Image Description" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-6 offset-md-3">
+                    <!-- Existing registration form -->
+                </div>
+                </div>
+            </div>
         <div class="col-md-6 offset-md-3">
             <h1 class="text-center">{% trans "Create Your Account" %}</h1>
             <p class="text-center">{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
