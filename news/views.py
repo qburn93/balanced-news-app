@@ -1,15 +1,36 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from .models import Post
+from .models import Post, Category
 from .forms import CommentForm
 
 
 class PostList(generic.ListView):
     model = Post
-    queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
     paginate_by = 3
+
+
+def category(request, category_name):
+    category = Category.objects.get(name=category_name)
+    posts = Post.objects.filter(category=category)
+    context = {
+        'category': category,
+        'posts': posts,
+    }
+    return render(request, 'news/category.html', context)
+
+    def get_queryset(self):
+        category = self.kwargs.get('category')
+        if category:
+            return Post.objects.filter(status=1, category__name=category).order_by('-created_on')
+        else:
+            return Post.objects.filter(status=1).order_by('-created_on')
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['categories'] = Category.objects.all()
+        return context
 
 
 class NewsPostDetail(View):
@@ -33,7 +54,7 @@ class NewsPostDetail(View):
                 "comment_form": CommentForm()
             },
         )
-    
+
     def post(self, request, slug, *args, **kwargs):
 
         queryset = Post.objects.filter(status=1)
@@ -67,7 +88,7 @@ class NewsPostDetail(View):
 
 
 class PostLike(View):
-    
+
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
