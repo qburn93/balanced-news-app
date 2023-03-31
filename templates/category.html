@@ -1,19 +1,39 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 
 {% block content %}
-    <h2>Posts in category: {{ category.name }}</h2>
+
+<div class="container-fluid">
+    <div class="intro-container text-center">
+        <h1 class="intro-title">Posts in category: {{ category }}</h1>
+    </div>
     <div class="row">
         {% for post in posts %}
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="{{ post.featured_image.url }}" class="card-img-top" alt="{{ post.title }}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ post.title }}</h5>
-                        <p class="card-text">{{ post.excerpt }}</p>
-                        <a href="{% url 'post_detail' post.slug %}" class="btn btn-primary">Read More</a>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="image-container">
+                    {% if "placeholder" in post.featured_image.url %}
+                    <img class="card-img-top" src="" alt="Card image">
+                    {% else %}
+                    <img class="card-img-top" alt="Card image" src="{{ post.featured_image.url }}">
+                    {% endif %}
+                    <div class="image-flash">
+                        <p class="author">Author: {{ post.author }}</p>
+                        <p class="category">Category: {{ post.category }}</p>
                     </div>
                 </div>
+                <div class="card-body">
+                    <a href="{% url 'news_detail' post.slug  %}" class="post-link">
+                        <h2 class="card-title">{{ post.title }}</h2>
+                        <p class="card-text">{{ post.content|safe }}</p>
+                        <p class="card-text text-muted h6">Political Leaning: {{ post.political_view}}</p>
+                    </a>
+                    <hr>
+                    <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i> {{ post.number_of_likes }}</p>
+                </div>
             </div>
+        </div>
         {% endfor %}
     </div>
+</div>
+
 {% endblock %}

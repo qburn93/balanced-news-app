@@ -10,16 +10,6 @@ class PostList(generic.ListView):
     template_name = 'index.html'
     paginate_by = 3
 
-
-def category(request, category_name):
-    category = Category.objects.get(name=category_name)
-    posts = Post.objects.filter(category=category)
-    context = {
-        'category': category,
-        'posts': posts,
-    }
-    return render(request, 'news/category.html', context)
-
     def get_queryset(self):
         category = self.kwargs.get('category')
         if category:
@@ -31,6 +21,17 @@ def category(request, category_name):
         context = super().get_context_data(**kwargs)
         context['categories'] = Category.objects.all()
         return context
+
+
+def category(request, category_name):
+    category = Category.objects.get(name=category_name)
+    posts = Post.objects.filter(category=category)
+    context = {
+        'category': category,
+        'posts': posts,
+        'categories': Category.objects.all(),
+    }
+    return render(request, 'news/category.html', context)
 
 
 class NewsPostDetail(View):
@@ -51,12 +52,12 @@ class NewsPostDetail(View):
                 "comments": comments,
                 "commented": False,
                 "liked": liked,
-                "comment_form": CommentForm()
+                "comment_form": CommentForm(),
+                "categories": Category.objects.all()
             },
         )
 
     def post(self, request, slug, *args, **kwargs):
-
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
@@ -82,7 +83,8 @@ class NewsPostDetail(View):
                 "comments": comments,
                 "commented": True,
                 "comment_form": comment_form,
-                "liked": liked
+                "liked": liked,
+                "categories": Category.objects.all(),
             },
         )
 
