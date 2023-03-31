@@ -4,7 +4,7 @@
 - Welcome to the balanced news app repository! Here you will find the source code for a website that aims to provide a diverse range of news articles and stories from a variety of sources. The goal of the website is to present information in a fair and unbiased manner with a direct view of the political leaning of each news post.
 
 - This is the 4th portfolio project developed as part of the Code Institute Diploma in Full Stack Development. It was created to demonstrate skills acquired using Django to design and develop websites that offer full CRUD (create, read, update and delete) functionality.
-- With a tight deadline of only 16 days, I couldn't have finished this project without the help of Code Institute's 'I think therefore I Blog' project, which guided me through setting up my virtual environment and database and offering the post class models and comments where I added the political leaning for the post. Given more time I would have also added that each news post should be displayed and added in it's correct category page.
+
 
 ![Multi Device Screenshot](https://i.imgur.com/LkXGz45.png)
 
