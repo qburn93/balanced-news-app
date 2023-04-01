@@ -119,15 +119,9 @@ body {
     color: lightgray;
 }
 
-.btn-signup {
-    background-color: #df0a20;
-    color: #fff;
-}
-
-.btn-signup:hover,
-.btn-signup:active {
-    background-color: #fff;
-    color: #df0a20;
+.footer {
+    width: 100%;
+    /* Add the rest of the properties */
 }
 
 .link {
