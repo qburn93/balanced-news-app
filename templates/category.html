@@ -10,16 +10,14 @@
         {% for post in posts %}
         <div class="col-md-4">
             <div class="card mb-4">
+                <p class="author">Author: {{ post.author }}</p>
                 <div class="image-container">
                     {% if "placeholder" in post.featured_image.url %}
                     <img class="card-img-top" src="" alt="Card image">
                     {% else %}
                     <img class="card-img-top" alt="Card image" src="{{ post.featured_image.url }}">
                     {% endif %}
-                    <div class="image-flash">
-                        <p class="author">Author: {{ post.author }}</p>
-                        <p class="category">Category: {{ post.category }}</p>
-                    </div>
+                    
                 </div>
                 <div class="card-body">
                     <a href="{% url 'news_detail' post.slug  %}" class="post-link">
@@ -29,6 +27,7 @@
                     </a>
                     <hr>
                     <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i> {{ post.number_of_likes }}</p>
+                    
                 </div>
             </div>
         </div>
