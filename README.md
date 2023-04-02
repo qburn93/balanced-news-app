@@ -126,6 +126,7 @@ User experience was one of the main driving factors in this project. A simple, c
 The site consists of the following sections:
 - Home page in which a logged in user will be displayed their profile and if no user is logged in will display the log in form, and register a new account buttons
 - Register page where new users can register an account with Balanced News
+- Unregistered users are not allowed to see the categories of the page.
 - Feed page where all posts will be shown, posts will be displayed in order by date of most recent.
 - News post detail page where a more in depth view of a post will be shown, this will include a like button, like count and comments section.
 - Add post page where a logged site owner or site employer can create a new post.
@@ -192,6 +193,9 @@ The Like model object represents a user has liked an individual post contains an
     - Navigation on smaller viewports
 
         ![NavBar - collapsible](https://i.imgur.com/24XVw7A.png)
+    
+    - Categories 
+    - ![NavBar - collapsible](https://i.imgur.com/NF9Dgr5.png)
 
 1. Signup, Login and other account management pages
 
@@ -313,6 +317,19 @@ To avoid unnecessary repetition of images, only the feature being referred to wi
 <a href="https://imgur.com/xWivpxC"><img src="https://i.imgur.com/xWivpxC.png" title="source: imgur.com" /></a>
 </details>
 <br>
+
+1. As a user, I want to browse articles by category so that I can easily find content related to my interests.
+
+| Feature       | Action        | Expected Result  | Actual Result |
+| ------------- | ------------- | -------------    | ------------- |
+|  Category Navigation  | Log in and locate the category menu nav  | A list of categories to be displayed either in the main navigation or dropdown hambugermenu    | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<a href="https://i.imgur.com/2IWcs2I.png"><img src="https://i.imgur.com/2IWcs2I.png" title="source: imgur.com" /></a>
+</details>
+<br>
+
 
 2. As a user, I want to see visual indicators for example of having liked a post so that I can tell if I have previously liked that post.
 
