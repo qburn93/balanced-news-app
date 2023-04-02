@@ -10,31 +10,43 @@
         <h1 class="intro-title">Welcome to Balanced News</h1>
         <p class="intro-description">Stay informed and engaged with our wide range of news topics.</p>
     </div>
-    <div class="row">
-        {% for post in post_list %}
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <p class="author">Category: {{ post.category }}</p>
-                <div class="image-container">
-                    {% if "placeholder" in post.featured_image.url %}
-                    <img class="card-img-top" src="" alt="Card image">
-                    {% else %}
-                    <img class="card-img-top" alt="Card image" src="{{ post.featured_image.url }}">
-                    {% endif %}
+    <div class="container">
+        <div class="row">
+            {% for post in post_list %}
+                {% if forloop.counter == 1 or forloop.counter == 7 %}
+                    <div class="col-md-4">
+                {% elif forloop.counter == 2 or forloop.counter == 8 %}
+                    <div class="col-md-8">
+                {% else %}
+                    <div class="col-md-4">
+                {% endif %}
+                    <div class="card mb-4">
+                        <p class="author">Category: {{ post.category }}</p>
+                        <div class="image-container">
+                            {% if "placeholder" in post.featured_image.url %}
+                            <img class="card-img-top" src="" alt="Card image">
+                            {% else %}
+                            <img class="card-img-top" alt="Card image" src="{{ post.featured_image.url }}">
+                            {% endif %}
+                        </div>
+                        <div class="card-body">
+                            <p class="author">Author: {{ post.author }}</p>
+                            <a href="{% url 'news_detail' post.slug  %}" class="post-link">
+                                <h2 class="card-title">{{ post.title }}</h2>
+                                <p class="card-text">{{ post.content|safe }}</p>
+                                <p class="card-text text-muted h6">Political Leaning: {{ post.political_view}}</p>
+                            </a>
+                            <hr>
+                            <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i> {{ post.number_of_likes }}</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <p class="author">Author: {{ post.author }}</p>
-                    <a href="{% url 'news_detail' post.slug  %}" class="post-link">
-                        <h2 class="card-title">{{ post.title }}</h2>
-                        <p class="card-text">{{ post.content|safe }}</p>
-                        <p class="card-text text-muted h6">Political Leaning: {{ post.political_view}}</p>
-                    </a>
-                    <hr>
-                    <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i> {{ post.number_of_likes }}</p>
-                </div>
-            </div>
+                {% if forloop.counter == 6 %}
+                    </div>
+                    <div class="row">
+                {% endif %}
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
     {% if is_paginated %}
     <nav aria-label="Page navigation">
@@ -47,7 +59,6 @@
             {% endif %}
         </ul>
     </nav>
-
     {% endif %}
 </div>
 

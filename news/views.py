@@ -8,7 +8,7 @@ from .forms import CommentForm
 class PostList(generic.ListView):
     model = Post
     template_name = 'index.html'
-    paginate_by = 3
+    paginate_by = 11
 
     def get_queryset(self):
         category = self.kwargs.get('category')
