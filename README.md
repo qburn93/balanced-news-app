@@ -183,7 +183,7 @@ The Like model object represents a user has liked an individual post contains an
 
     - The functionality of commenting posts on the site is restricted to un-registered users in line with its purpose. The home page was therefore designed to welcome users and provide an introduction to make the site purpose clear. There are clear links to encourage visitors to signup and allow existing users to login. The home page is fully responsive and is based on the site's base template, therefore includes the site wide navigation and footer elements.
 
-        ![Home Page](https://i.imgur.com/40OLp28.png)
+        ![Home Page](https://i.imgur.com/LmRCfY6.png)
 
 1. Navigation
 
@@ -197,9 +197,9 @@ The Like model object represents a user has liked an individual post contains an
 
     - The *django-allauth* signup page shown below was extended to request a user's name as part of the signup process. This also demonstrates how the styling of the *django-allauth* templates were altered to make them cohesive with the rest of the site. Forms were styled using the *crispy-bootstrap5* package.
 
-        ![Account Signup-Mobile](https://i.imgur.com/YwecgsW.png)
-        ![Account Logout](https://i.imgur.com/Grm3UGw.png)
-        ![Account Login](https://i.imgur.com/nf4lrin.png)
+        ![Account Signup-Mobile](https://i.imgur.com/iPRL37J.png)
+        ![Account Logout](https://i.imgur.com/nOqwlG9.png)
+        ![Account Login](https://i.imgur.com/rVEGQv3.png)
 
 2. News post details
         ![News post details](https://i.imgur.com/UAH04Tn.png)
