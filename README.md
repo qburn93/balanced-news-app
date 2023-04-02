@@ -76,6 +76,8 @@ User Stories
 
 1. As a Site User, I can register an account so that I can comment and like. Github Issue #5[Github Issue #5](https://github.com/qburn93/balanced-news-app/issues/5)
 
+2. As a news reader, I want to easily navigate between categories to find articles that interest me. Github Issue #5[Github Issue #14](https://github.com/qburn93/balanced-news-app/issues/14)
+
 2. As a Site User, I can leave comments on a post so that I can be involved in the conversation. [Github Issue #6](https://github.com/qburn93/balanced-news-app/issues/6)
 
 3. As a Site User, I can like or unlike a news post so that I can interact with the content. [Github Issue #7](https://github.com/qburn93/balanced-news-app/issues/7)
