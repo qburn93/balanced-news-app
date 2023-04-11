@@ -7,21 +7,49 @@ body {
     justify-content: center;
 }
 
-.brand {
-    font-family: Lato, sans-serif;
-    font-size: 1.6rem;
-    font-weight: 900;
-    color: #6b0404;
+.app-name {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    display: inline-flex;
 }
+
+.m {
+    color: #201E50;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 4;
+}
+
+.m:hover {
+    color: #23BBBB;
+    font-weight: 500;
+    transform: translate3d(0, -2px, 0);
+}
+
+.m2 {
+    color: #414361;
+    
+    font-weight: 300;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 4;
+}
+
+.m2:hover {
+    color: #2A2D43;
+    font-weight: 500;
+    transform: translate3d(0, -2px, 0);
+}
+
+
 
 .red-o {
     color: #E84610;
 }
 
-.thin {
-    font-weight: 300;
-    color: #6b0404;
-}
 
 .light-bg {
     background-color: #fff;
