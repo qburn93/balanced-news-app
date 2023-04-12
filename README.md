@@ -223,7 +223,7 @@ The Like model object represents a user has liked an individual post contains an
 
 ### Features Not Implemented
 
-- Catergories.
+- Several more Categories.
 - Trending/popular posts.
 - Local weather and location api.
 - Animated latest news text at the top of the website.
@@ -232,8 +232,8 @@ The Like model object represents a user has liked an individual post contains an
 
 ### Future Features
 Given more time I would like to add:
-- Categories.
-- Trending posts based on number of clicks for the post.
+- Add many more Categories for a diverse and organised usage.
+- Trending posts based on number of likes for the post.
 - Animated bar at the top of the page highlighting most recent important news posts.
 - Informing user to create account if they wish to comment after    
   clicking on a news post. 
