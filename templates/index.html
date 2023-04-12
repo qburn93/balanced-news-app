@@ -20,7 +20,7 @@
                 {% else %}
                     <div class="col-md-4">
                 {% endif %}
-                    <div class="card mb-4">
+                    <div class="card mb-4" style="--hover-color: {{ post.category.color }};">
                         <p class="category">Category: {{ post.category }}</p>
                         <div class="image-container">
                             {% if "placeholder" in post.featured_image.url %}

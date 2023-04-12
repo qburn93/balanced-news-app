@@ -7,6 +7,7 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 class Category(models.Model):
     name = models.CharField(max_length=200)
+    color = models.CharField(max_length=7, default="#000000")
 
     def __str__(self):
         return self.name

@@ -9,7 +9,7 @@
     <div class="row">
         {% for post in posts %}
         <div class="col-md-4">
-            <div class="card mb-4">
+            <div class="card mb-4" style="--hover-color: {{ post.category.color }};">
                 <p class="author">Author: {{ post.author }}</p>
                 <div class="image-container">
                     {% if "placeholder" in post.featured_image.url %}
