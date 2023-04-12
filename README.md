@@ -131,6 +131,18 @@ The site consists of the following sections:
 - News post detail page where a more in depth view of a post will be shown, this will include a like button, like count and comments section.
 - Add post page where a logged site owner or site employer can create a new post.
 
+#### Admin Creating a Category
+
+1. Open your Django admin panel by navigating to your application's URL followed by /admin (https://balanced-news-app.herokuapp.com/admin)
+- Log in with your admin credentials.
+- In the admin dashboard, locate the Categories section, and click on the Add button next to it.
+- Fill in the required fields for the category:
+  - Name: Enter a name for the category (e.g., "Politics", "Technology", "Sports").
+  - Slug: Enter a unique slug for the category. This should be a lowercase string with hyphens instead of spaces (e. 
+  g., "politics", "technology", "sports"). The slug will be used in the URL for the category page.
+2. In the Color field, enter the desired color in the #RRGGBB format. You can use a color picker tool to choose a color and obtain its corresponding hex code.
+3. Click the Save.
+
 #### Typography
 
 Google fonts was used in this project with both fonts selected for their legibility and simplicity.
