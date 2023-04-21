@@ -198,16 +198,16 @@ The Like model object represents a user has liked an individual post contains an
 
     - The functionality of commenting posts on the site is restricted to un-registered users in line with its purpose. The home page was therefore designed to welcome users and provide an introduction to make the site purpose clear. There are clear links to encourage visitors to signup and allow existing users to login. The home page is fully responsive and is based on the site's base template, therefore includes the site wide navigation and footer elements.
 
-        ![Home Page](https://i.imgur.com/LmRCfY6.png)
+        ![Home Page](https://i.imgur.com/lrQRIt8.png)
 
 1. Navigation
 
     - Navigation on smaller viewports
 
-        ![NavBar - collapsible](https://i.imgur.com/24XVw7A.png)
+      ![NavBar - collapsible](https://i.imgur.com/hE09tlg.png)
     
     - Categories 
-    - ![NavBar - collapsible](https://i.imgur.com/NF9Dgr5.png)
+    - ![NavBar - collapsible](https://i.imgur.com/vFdI937.png)
 
 1. Signup, Login and other account management pages
 
