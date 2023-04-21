@@ -33,7 +33,7 @@
                             <p class="author">Author: {{ post.author }}</p>
                             <a href="{% url 'news_detail' post.slug  %}" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
-                                <p class="card-text">{{ post.content|safe }}</p>
+                                <p class="card-text">Click here for more details.</p>
                                 <p class="card-text text-muted h6">Political Leaning: {{ post.political_view}}</p>
                             </a>
                             <hr>
