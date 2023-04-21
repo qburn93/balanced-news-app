@@ -216,7 +216,7 @@ The Like model object represents a user has liked an individual post contains an
     - The *django-allauth* signup page shown below was extended to request a user's name as part of the signup process. This also demonstrates how the styling of the *django-allauth* templates were altered to make them cohesive with the rest of the site. Forms were styled using the *crispy-bootstrap5* package.
 
         ![Account Signup-Mobile](https://i.imgur.com/iPRL37J.png)
-        ![Account Logout](https://i.imgur.com/nOqwlG9.png)
+        ![Account Logout](https://i.imgur.com/ifOlMRv.png)
         ![Account Login](https://i.imgur.com/rVEGQv3.png)
 
 2. News post details
